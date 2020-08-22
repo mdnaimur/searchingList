@@ -3,6 +3,12 @@
 {% block content %}
 
 <h2 style="text-align: center"> {{search}}</h2>
+
+{% for post in final_posting%}
+{{post.0}} <br>
+{{post.1}}<br>
+{{post.2}}<br>
+{% endfor %}
 <div class="row">
 <div class="col s4">
                 <div class="card">
